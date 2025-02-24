@@ -1,0 +1,5 @@
+pandas → Para manejar y analizar datos financieros estructurados (transacciones, presupuestos, etc.).
+numpy → Para realizar cálculos matemáticos avanzados.
+scipy → Para cálculos de optimización financiera.
+finance o pyfinance → Para análisis de datos financieros.
+QuantLib → Si necesitas cálculos más avanzados de tasas de interés o inversiones.
