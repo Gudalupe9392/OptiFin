@@ -9,3 +9,5 @@ pyportfolioopt → Para optimizar inversiones y portafolios financieros.
 matplotlib → Para gráficos simples como barras, líneas, circulares.
 seaborn → Para gráficos estadísticos más avanzados.
 plotly → Para gráficos interactivos y dashboards.
+pip install kivy
+pip install buildozer
