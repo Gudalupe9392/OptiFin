@@ -11,3 +11,4 @@ seaborn → Para gráficos estadísticos más avanzados.
 plotly → Para gráficos interactivos y dashboards.
 pip install kivy
 pip install buildozer
+Firebase Realtime Database
