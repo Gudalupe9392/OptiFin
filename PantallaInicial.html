@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optifin</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .acciones button {
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        .btn-principal {
+            background-color: #28a745;
+            color: white;
+        }
+
+        .btn-secundario {
+            background-color: white;
+            color: #004080;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background-color: #000000;
+            color: white;
+        }
+
+        .categorias {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px;
+        }
+
+        .categoria {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 150px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">OPTIFIN</div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Mercado</a></li>
+                <li><a href="#">Sobre Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="acciones">
+            <button class="btn-secundario">Registrarse</button>
+            <button class="btn-principal">Iniciar Sesión</button>
+        </div>
+    </header>
+    <section class="hero">
+        <h1>Construye tu Futuro Financiero</h1>
+        <p>Descubre las mejores oportunidades de inversión sin complicaciones.</p>
+    </section>
+    <section class="categorias">
+        <div class="categoria">Acciones</div>
+        <div class="categoria">Bonos</div>
+        <div class="categoria">Criptomonedas</div>
+        <div class="categoria">Fondos de Inversión</div>
+    </section>
+</body>
+</html>

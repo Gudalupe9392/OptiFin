@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro de Usuario</title>
+</head>
+<body>
+    <h2>Registro</h2>
+    <form id="registroForm">
+        <input type="text" id="nombre" placeholder="Nombre" required><br>
+        <input type="email" id="email" placeholder="Email" required><br>
+        <input type="password" id="contraseña" placeholder="Contraseña" required><br>
+        <button type="submit">Registrar</button>
+    </form>
+
+    <script>
+        document.getElementById("registroForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            let datos = {
+                nombre: document.getElementById("nombre").value,
+                email: document.getElementById("email").value,
+                contraseña: document.getElementById("contraseña").value
+            };
+
+            fetch("http://localhost:8080/api/usuarios/registro", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(datos)
+            }).then(response => response.text())
+              .then(data => alert(data));
+        });
+    </script>
+</body>
+</html>
